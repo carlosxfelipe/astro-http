@@ -3,6 +3,8 @@ import { getCollection } from "astro:content";
 
 // http://localhost:4321/api/posts
 
+export const prerender = false;
+
 export const GET: APIRoute = async ({ params, request }) => {
   const posts = await getCollection("blog");
 
