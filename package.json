@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.1.0",
+    "@astrojs/db": "^0.14.5",
     "@astrojs/mdx": "^4.0.3",
     "@astrojs/node": "^9.0.0",
     "@astrojs/rss": "^4.0.10",
